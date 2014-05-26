@@ -9,7 +9,12 @@ Example:
 ```go
 package example
 
-import "github.com/Futile/go-lil-t"
+import (
+	"testing"
+
+	"github.com/futile/go-lil-t"
+)
+
 
 func TestMyStuff(t *testing.T) {
     If, IfNot := lilt.New(t)
