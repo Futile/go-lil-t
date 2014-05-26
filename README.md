@@ -1,7 +1,21 @@
 go-lil-t
 ========
 
-Little testing-helpers for go
+I wrote these two little helpers, `If` and `IfNot`, to replace testing code such as:
+
+```go
+    if result == nil {
+        t.Errorf("error")
+    }
+```
+
+with the much shorter:
+
+```go
+    If(result == nil).Errorf("error")
+```
+
+which is much more readable and takes less lines in the file.
 
 Example:
 ---------
