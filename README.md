@@ -15,7 +15,7 @@ with the much shorter:
     If(result == nil).Errorf("error")
 ```
 
-which is much more readable and takes less lines in the file.
+which is much more readable. Also it helps to remove clutter from tests.
 
 Example:
 ---------
